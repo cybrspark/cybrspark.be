@@ -1,0 +1,9 @@
+[submodule "cybrspark.be/themes/up-business-theme"]
+	path = cybrspark.be/themes/up-business-theme
+	url = https://gitlab.com/writeonlyhugo/up-business-theme.git
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "cybrspark/themes/ananke"]
+	path = cybrspark/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
