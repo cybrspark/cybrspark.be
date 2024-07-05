@@ -24,12 +24,12 @@ draft: false
 <div class="column-container">
   <div class="column">
     <h2>Anton Romanova</h2>
-    <img src="/images/anton.jpg" alt="Anton Romanova">
+    <img src="/assets/images/anton.png" alt="Anton Romanova">
     <p>Backend developer at Duckrabbit and freelancer</p>
   </div>
   <div class="column">
     <h2>Ismael Secundar</h2>
-    <img src="/images/ismael.jpg" alt="Ismael Secundar">
+    <img src="/assets/images/ismael.png" alt="Ismael Secundar">
     <p>Consultant at European Bank of Investment</p>
   </div>
 </div>
