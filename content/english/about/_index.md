@@ -2,8 +2,8 @@
 title: "Hey, We are Anton Romanova and Ismael Secundar!"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/avatar.png"
 draft: false
+image: "images/about/about.jpg"
 ---
 
 <style>
@@ -16,20 +16,21 @@ draft: false
     padding: 10px;
   }
   .column img {
-    max-width: 100%;
-    height: auto;
+    width: 300px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the specified dimensions */
   }
 </style>
 
 <div class="column-container">
   <div class="column">
     <h2>Anton Romanova</h2>
-    <img src="/assets/images/anton.png" alt="Anton Romanova">
+    {{< image src="images/anton.png" caption="" alt="alter-text" height="300px" width="300px" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" zoom="true" >}}
     <p>Backend developer at Duckrabbit and freelancer</p>
   </div>
   <div class="column">
     <h2>Ismael Secundar</h2>
-    <img src="/assets/images/ismael.png" alt="Ismael Secundar">
+    {{< image src="images/ismael.png" caption="" alt="alter-text" height="300px" width="300px" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
     <p>Consultant at European Bank of Investment</p>
   </div>
 </div>
