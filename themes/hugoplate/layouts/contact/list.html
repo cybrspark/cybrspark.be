@@ -19,6 +19,19 @@
                 type="text" />
             </div>
             <div class="mb-6">
+              <label for="phone" class="form-label">
+                Phone number <span class="text-red-500">*</span>
+              </label>
+              <input
+                      id="phone"
+                      name="phone"
+                      class="form-input"
+                      placeholder="+32 4XX XX XX XX"
+                      type="tel"
+                      pattern="^\+32\s?(\d{1,2}\s?\d{3}\s?\d{2}\s?\d{2}|\d{2}\s?\d{3}\s?\d{2}\s?\d{2})$"
+                      required />
+            </div>
+            <div class="mb-6">
               <label for="email" class="form-label">
                 Working Mail <span class="text-red-500">*</span>
               </label>

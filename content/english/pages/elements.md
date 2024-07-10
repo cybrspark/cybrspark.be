@@ -1,248 +1,589 @@
 ---
-title: "Elements"
+
+title: "Services"
+
 # meta title
+
 meta_title: ""
+
 # meta description
+
 description: "This is meta description"
+
 # save as draft
+
 draft: false
+
 ---
 
-{{< toc >}}
 
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+[//]: # ({{< toc >}})
 
 <hr>
 
-### Emphasis
+### Security Packages
 
-The emphasis, aka italics, with _asterisks_ or _underscores_.
+<div style="display: flex; justify-content: space-around;">
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+<div style="display: flex; flex-direction: column; justify-content: space-between; width: 30%; border: 1px solid #e1e1e1; padding: 20px; text-align: center; height: 100%;">
+    <div>
+        <h3>Starter Security Package</h3>
+        <ul style="text-align: left;">
+            <li>Specializing in Wordpress security hardening and vulnerability research</li>
+            <li>Vulnerability assessment and pentesting report</li>
+            <li>Security hardening and zero days detection</li>
+        </ul>
+    </div>
+    <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; cursor: pointer; align-self: center;">Buy Now</button>
+</div>
 
-The combined emphasis with **asterisks and _underscores_**.
+<div style="display: flex; flex-direction: column; justify-content: space-between; width: 30%; border: 1px solid #e1e1e1; padding: 20px; text-align: center; background-color: #f9f9f9; height: 100%;">
+    <div>
+        <h3>Medium Security Package</h3>
+        <ul style="text-align: left;">
+            <li>Specializing in Wordpress security hardening and vulnerability research</li>
+            <li>Vulnerability assessment and pentesting report</li>
+            <li>Security hardening and zero days detection</li>
+            <li>Updating and patching vulnerable software</li>
+            <li>Monitoring and alerting setup</li>
+            <li>Encrypted backups</li>
+        </ul>
+    </div>
+    <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; cursor: pointer; align-self: center;">Buy Now</button>
+</div>
 
-Strike through uses two tildes. ~~Scratch this.~~
+<div style="display: flex; flex-direction: column; justify-content: space-between; width: 30%; border: 1px solid #e1e1e1; padding: 20px; text-align: center; background-color: #f6f6ff; height: 100%;">
+    <div>
+        <h3>VIP Security Package</h3>
+        <ul style="text-align: left;">
+            <li>Specializing in Wordpress security hardening and vulnerability research</li>
+            <li>Vulnerability assessment and pentesting report</li>
+            <li>Security hardening and zero days detection</li>
+            <li>Updating and patching vulnerable software</li>
+            <li>Monitoring and alerting setup</li>
+            <li>Encrypted backups</li>
+            <li>Private VPN access to internal company services</li>
+            <li>Advanced firewalling</li>
+            <li>Disaster recovery planning</li>
+        </ul>
+    </div>
+    <button style="background-color: #6f42c1; color: white; padding: 10px 20px; border: none; cursor: pointer; align-self: center;">Buy Now</button>
+</div>
 
+</div>
 <hr>
 
-### Button
+[//]: # (Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.)
 
-{{< button label="Button" link="/" style="solid" >}}
+[//]: # ()
+[//]: # (# Heading 1)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # (## Heading 2)
 
-### Link
+[//]: # ()
+[//]: # ()
+[//]: # (### Heading 3)
 
-[I'm an inline-style link](https://www.google.com)
+[//]: # ()
+[//]: # ()
+[//]: # (#### Heading 4)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[//]: # ()
+[//]: # ()
+[//]: # (##### Heading 5)
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[//]: # ()
+[//]: # ()
+[//]: # (###### Heading 6)
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-[You can use numbers for reference-style link definitions][1]
+[//]: # ()
+[//]: # ()
+[//]: # (### Emphasis)
 
-Or leave it empty and use the [link text itself].
+[//]: # ()
+[//]: # ()
+[//]: # (The emphasis, aka italics, with _asterisks_ or _underscores_.)
 
-URLs and URLs in angle brackets will automatically get turned into links.
-<http://www.example.com> or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
+[//]: # ()
+[//]: # ()
+[//]: # (Strong emphasis, aka bold, with **asterisks** or **underscores**.)
 
-Some text to show that the reference links can follow later.
+[//]: # ()
+[//]: # ()
+[//]: # (The combined emphasis with **asterisks and _underscores_**.)
 
-[arbitrary case-insensitive reference text]: https://www.themefisher.com
-[1]: https://gethugothemes.com
-[link text itself]: https://www.getjekyllthemes.com
+[//]: # ()
+[//]: # ()
+[//]: # (Strike through uses two tildes. ~~Scratch this.~~)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-### Paragraph
+[//]: # ()
+[//]: # ()
+[//]: # (### Button)
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
+[//]: # ()
+[//]: # ()
+[//]: # ({{< button label="Button" link="/" style="solid" >}})
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-### Ordered List
+[//]: # ()
+[//]: # ()
+[//]: # (### Link)
 
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
+[//]: # ()
+[//]: # ()
+[//]: # ([I'm an inline-style link]&#40;https://www.google.com&#41;)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # ([I'm an inline-style link with title]&#40;https://www.google.com "Google's Homepage"&#41;)
 
-### Unordered List
+[//]: # ()
+[//]: # ()
+[//]: # ([I'm a reference-style link][Arbitrary case-insensitive reference text])
 
-- List item
-- List item
-- List item
-- List item
-- List item
+[//]: # ()
+[//]: # ()
+[//]: # ([I'm a relative reference to a repository file]&#40;../blob/master/LICENSE&#41;)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # ([You can use numbers for reference-style link definitions][1])
 
-### Notice
+[//]: # ()
+[//]: # ()
+[//]: # (Or leave it empty and use the [link text itself].)
 
-{{< notice "note" >}}
-This is a simple note.
-{{< /notice >}}
+[//]: # ()
+[//]: # ()
+[//]: # (URLs and URLs in angle brackets will automatically get turned into links.)
 
-{{< notice "tip" >}}
-This is a simple tip.
-{{< /notice >}}
+[//]: # ()
+[//]: # (<http://www.example.com> or <http://www.example.com> and sometimes)
 
-{{< notice "info" >}}
-This is a simple info.
-{{< /notice >}}
+[//]: # ()
+[//]: # (example.com &#40;but not on Github, for example&#41;.)
 
-{{< notice "warning" >}}
-This is a simple warning.
-{{< /notice >}}
+[//]: # ()
+[//]: # ()
+[//]: # (Some text to show that the reference links can follow later.)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # ([arbitrary case-insensitive reference text]: https://www.themefisher.com)
 
-### Tab
+[//]: # ()
+[//]: # ([1]: https://gethugothemes.com)
 
-{{< tabs >}}
-{{< tab "Tab 1" >}}
+[//]: # ()
+[//]: # ([link text itself]: https://www.getjekyllthemes.com)
 
-#### Hey There, I am a tab
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+[//]: # ()
+[//]: # ()
+[//]: # (### Paragraph)
 
-{{< /tab >}}
+[//]: # ()
+[//]: # ()
+[//]: # (Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.)
 
-{{< tab "Tab 2" >}}
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-#### I wanna talk about the assassination attempt
+[//]: # ()
+[//]: # ()
+[//]: # (### Ordered List)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+[//]: # ()
+[//]: # ()
+[//]: # (1. List item)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+[//]: # ()
+[//]: # (2. List item)
 
-{{< /tab >}}
+[//]: # ()
+[//]: # (3. List item)
 
-{{< tab "Tab 3" >}}
+[//]: # ()
+[//]: # (4. List item)
 
-#### We know you’re dealing in stolen ore
+[//]: # ()
+[//]: # (5. List item)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+[//]: # ()
+[//]: # ()
+[//]: # (### Unordered List)
 
-{{< /tab >}}
-{{< /tabs >}}
+[//]: # ()
+[//]: # ()
+[//]: # (- List item)
 
-<hr>
+[//]: # ()
+[//]: # (- List item)
 
-### Accordions
+[//]: # ()
+[//]: # (- List item)
 
-{{< accordion "Why should you need to do this?" >}}
+[//]: # ()
+[//]: # (- List item)
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
+[//]: # ()
+[//]: # (- List item)
 
-{{< /accordion >}}
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-{{< accordion "How can I adjust Horizontal centering" >}}
+[//]: # ()
+[//]: # ()
+[//]: # (### Notice)
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
+[//]: # ()
+[//]: # ()
+[//]: # ({{< notice "note" >}})
 
-{{< /accordion >}}
+[//]: # ()
+[//]: # (This is a simple note.)
 
-{{< accordion "Should you use Negative margin?" >}}
+[//]: # ()
+[//]: # ({{< /notice >}})
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
+[//]: # ()
+[//]: # ()
+[//]: # ({{< notice "tip" >}})
 
-{{< /accordion >}}
+[//]: # ()
+[//]: # (This is a simple tip.)
 
-<hr>
+[//]: # ()
+[//]: # ({{< /notice >}})
 
-### Code and Syntax Highlighting
+[//]: # ()
+[//]: # ()
+[//]: # ({{< notice "info" >}})
 
-This is an `Inline code` sample.
+[//]: # ()
+[//]: # (This is a simple info.)
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+[//]: # ()
+[//]: # ({{< /notice >}})
 
-```python
-s = "Python syntax highlighting"
-print s
-```
+[//]: # ()
+[//]: # ()
+[//]: # ({{< notice "warning" >}})
 
-```mermaid
-flowchart TD
-    A[Start] --> B{Is it?}
-    B -- Yes --> C[OK]
-    C --> D[Rethink]
-    D --> B
-    B -- No ----> E[End]
-```
+[//]: # ()
+[//]: # (This is a simple warning.)
 
-<hr>
+[//]: # ()
+[//]: # ({{< /notice >}})
 
-### Blockquote
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+[//]: # ()
+[//]: # ()
+[//]: # (### Tab)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # ({{< tabs >}})
 
-### Tables
+[//]: # ()
+[//]: # ({{< tab "Tab 1" >}})
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
+[//]: # ()
+[//]: # ()
+[//]: # (#### Hey There, I am a tab)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.)
 
-### Image
+[//]: # ()
+[//]: # ()
+[//]: # ({{< /tab >}})
 
-{{< image src="images/ismael.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+[//]: # ()
+[//]: # ()
+[//]: # ({{< tab "Tab 2" >}})
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # (#### I wanna talk about the assassination attempt)
 
-### Gallery
+[//]: # ()
+[//]: # ()
+[//]: # (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.)
 
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+[//]: # ()
+[//]: # ()
+[//]: # (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # ({{< /tab >}})
 
-### Slider
+[//]: # ()
+[//]: # ()
+[//]: # ({{< tab "Tab 3" >}})
 
-{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+[//]: # ()
+[//]: # ()
+[//]: # (#### We know you’re dealing in stolen ore)
 
-<hr>
+[//]: # ()
+[//]: # ()
+[//]: # (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.)
 
-### Youtube video
+[//]: # ()
+[//]: # ()
+[//]: # (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo)
 
-{{< youtube ResipmZmpDU >}}
+[//]: # ()
+[//]: # ()
+[//]: # ({{< /tab >}})
 
-<hr>
+[//]: # ()
+[//]: # ({{< /tabs >}})
 
-### Custom video
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
 
-{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
+[//]: # ()
+[//]: # ()
+[//]: # (### Accordions)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< accordion "Why should you need to do this?" >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur adipisicing elit.)
+
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur adipisicing elit.)
+
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< /accordion >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< accordion "How can I adjust Horizontal centering" >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur adipisicing elit.)
+
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur adipisicing elit.)
+
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< /accordion >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< accordion "Should you use Negative margin?" >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur adipisicing elit.)
+
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur adipisicing elit.)
+
+[//]: # ()
+[//]: # (- Lorem ipsum dolor sit amet consectetur)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< /accordion >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Code and Syntax Highlighting)
+
+[//]: # ()
+[//]: # ()
+[//]: # (This is an `Inline code` sample.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (```javascript)
+
+[//]: # ()
+[//]: # (var s = "JavaScript syntax highlighting";)
+
+[//]: # ()
+[//]: # (alert&#40;s&#41;;)
+
+[//]: # ()
+[//]: # (```)
+
+[//]: # ()
+[//]: # ()
+[//]: # (```python)
+
+[//]: # ()
+[//]: # (s = "Python syntax highlighting")
+
+[//]: # ()
+[//]: # (print s)
+
+[//]: # ()
+[//]: # (```)
+
+[//]: # ()
+[//]: # ()
+[//]: # (```mermaid)
+
+[//]: # ()
+[//]: # (flowchart TD)
+
+[//]: # ()
+[//]: # (    A[Start] --> B{Is it?})
+
+[//]: # ()
+[//]: # (    B -- Yes --> C[OK])
+
+[//]: # ()
+[//]: # (    C --> D[Rethink])
+
+[//]: # ()
+[//]: # (    D --> B)
+
+[//]: # ()
+[//]: # (    B -- No ----> E[End])
+
+[//]: # ()
+[//]: # (```)
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Blockquote)
+
+[//]: # ()
+[//]: # ()
+[//]: # (> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Tables)
+
+[//]: # ()
+[//]: # ()
+[//]: # (| Tables        |      Are      |  Cool |)
+
+[//]: # ()
+[//]: # (| ------------- | :-----------: | ----: |)
+
+[//]: # ()
+[//]: # (| col 3 is      | right-aligned | $1600 |)
+
+[//]: # ()
+[//]: # (| col 2 is      |   centered    |   $12 |)
+
+[//]: # ()
+[//]: # (| zebra stripes |   are neat    |    $1 |)
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Image)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< image src="images/ismael.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Gallery)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Slider)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Youtube video)
+
+[//]: # ()
+[//]: # ({{< youtube ResipmZmpDU >}})
+
+[//]: # ()
+[//]: # ()
+[//]: # (<hr>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### Custom video)
+
+[//]: # ()
+[//]: # ()
+[//]: # ({{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}})

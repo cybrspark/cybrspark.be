@@ -12,7 +12,7 @@ pageRef = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "Services"
 pageRef = "/elements"
 weight = 3
 
@@ -53,7 +53,7 @@ pageRef = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
+name = "Services"
 pageRef = "/elements"
 weight = 2
 
